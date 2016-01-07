@@ -15,9 +15,10 @@ namespace GitHubTestWeb.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page."; //This is changed
 
-            return View();
+            //this is new
+
         }
 
         public ActionResult Contact()
